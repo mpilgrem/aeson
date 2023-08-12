@@ -8,7 +8,7 @@ import           Data.ByteString                (ByteString)
 import qualified Data.Text                      as T
 
 #if MIN_VERSION_text(2,0,0)
-import           Data.Text.Array                (Array (..))
+import           Data.Array.Byte                (ByteArray (..))
 import qualified Data.Text.Internal             as T (Text (..))
 
 import qualified Data.ByteString.Short.Internal as SBS
